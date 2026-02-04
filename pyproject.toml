@@ -1,0 +1,13 @@
+[project]
+name = "sea-daily-briefing"
+version = "1.0.0"
+description = "东南亚四国每日要闻与生活指数推送助手"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.28.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+briefing = "main:main"
