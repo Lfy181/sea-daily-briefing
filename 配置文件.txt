@@ -1,0 +1,8 @@
+Client ID (原 AppKey 和 SuiteKey)：dingqswguvtbhcnprqxc
+Client Secret (原 AppSecret 和 SuiteSecret)：O5yH3OpwXm7adFBqpL60QzNUVlb-TFRG7jQHOkyOFg5XgCTvrNZ7YI9MT-kOKZZv
+
+
+搭建一个定时推送菲律宾每日简报信息的机器人，简报内容包括：第一行为当天日期，第二行为汇率（1CNY=...），第三行为七天天气预报，以表格形式呈现。需包含天气定性判断（晴/多云/小雨/大雨等）、温度、降雨量、风速和极端天气（如台风）等数据。请确认API是否包含这些字段。删除当地要闻部分。整个定时推送流程需部署在阿里云上。
+
+
+Rt666888@@@
