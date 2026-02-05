@@ -6,3 +6,24 @@ Client Secret (原 AppSecret 和 SuiteSecret)：O5yH3OpwXm7adFBqpL60QzNUVlb-TFRG
 
 
 Rt666888@@@
+
+
+国家 每日简报
+Client ID (原 AppKey 和 SuiteKey)
+Client Secret (原 AppSecret 和 SuiteSecret)
+RobotCode
+
+越南
+ding8iz18bhomfmspsuc
+E6BM9yieh4gOp64Vz5uOs0kgtjj9kM0fa3KZ3Dkv7IZNWJJ3etCX10P4XWG66ft8
+ding8iz18bhomfmspsuc
+
+马来
+dingxttqsefdjtlq9owy
+SvxoABRP8FdD4CqA5c9PgN7EILjfXnS6uZ41ST-oQ3p709W2xkSLBKfPgoB4EXWw
+dingxttqsefdjtlq9owy
+
+印尼
+dingnavgrnt8r5cihiwd
+CKOSun9StmsjuiAghXavKCPW04S7YFtyxRrM8gShQuKShuHGaptMYqm1tK8vmT2b
+dingnavgrnt8r5cihiwd

@@ -1,0 +1,17 @@
+[Unit]
+Description=Run Daily Briefing at 8:30 AM Shanghai Time
+Documentation=https://github.com/your-repo/daily-briefing
+
+[Timer]
+# 每天上海时间8:30运行
+OnCalendar=08:30:00
+Timezone=Asia/Shanghai
+
+# 如果错过时间，在下次启动时补运行
+Persistent=true
+
+# 随机延迟0-5分钟，避免所有服务器同时请求API
+RandomizedDelaySec=5m
+
+[Install]
+WantedBy=timers.target

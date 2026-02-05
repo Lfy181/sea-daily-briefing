@@ -1,0 +1,80 @@
+{
+  "bots": [
+    {
+      "name": "菲律宾简报机器人",
+      "country": "PH",
+      "city": "Manila",
+      "latitude": 14.5995,
+      "longitude": 120.9842,
+      "currency": "PHP",
+      "currency_name": "菲律宾比索",
+      "target_currency": "CNY",
+      "exchange_api": "juhe",
+      "groups": ["简报信息"],
+      "schedule": "08:30",
+      "timezone": "Asia/Shanghai",
+      "dingtalk": {
+        "client_id": "dingqswguvtbhcnprqxc",
+        "client_secret": "O5yH3OpwXm7adFBqpL60QzNUVlb-TFRG7jQHOkyOFg5XgCTvrNZ7YI9MT-kOKZZv",
+        "robot_code": "dingqswguvtbhcnprqxc"
+      }
+    },
+    {
+      "name": "越南简报机器人",
+      "country": "VN",
+      "city": "Ho Chi Minh City",
+      "latitude": 10.8231,
+      "longitude": 106.6297,
+      "currency": "VND",
+      "currency_name": "越南盾",
+      "target_currency": "CNY",
+      "exchange_api": "juhe",
+      "groups": ["简报信息"],
+      "schedule": "08:30",
+      "timezone": "Asia/Shanghai",
+      "dingtalk": {
+        "client_id": "ding8iz18bhomfmspsuc",
+        "client_secret": "E6BM9yieh4gOp64Vz5uOs0kgtjj9kM0fa3KZ3Dkv7IZNWJJ3etCX10P4XWG66ft8",
+        "robot_code": "ding8iz18bhomfmspsuc"
+      }
+    },
+    {
+      "name": "印尼简报机器人",
+      "country": "ID",
+      "city": "Jakarta",
+      "latitude": -6.2088,
+      "longitude": 106.8456,
+      "currency": "IDR",
+      "currency_name": "印尼卢比",
+      "target_currency": "CNY",
+      "exchange_api": "juhe",
+      "groups": ["简报信息"],
+      "schedule": "08:30",
+      "timezone": "Asia/Shanghai",
+      "dingtalk": {
+        "client_id": "dingnavgrnt8r5cihiwd",
+        "client_secret": "CKOSun9StmsjuiAghXavKCPW04S7YFtyxRrM8gShQuKShuHGaptMYqm1tK8vmT2b",
+        "robot_code": "dingnavgrnt8r5cihiwd"
+      }
+    },
+    {
+      "name": "马来西亚简报机器人",
+      "country": "MY",
+      "city": "Kuala Lumpur",
+      "latitude": 3.1390,
+      "longitude": 101.6869,
+      "currency": "MYR",
+      "currency_name": "马来西亚林吉特",
+      "target_currency": "CNY",
+      "exchange_api": "juhe",
+      "groups": ["简报信息"],
+      "schedule": "08:30",
+      "timezone": "Asia/Shanghai",
+      "dingtalk": {
+        "client_id": "dingxttqsefdjtlq9owy",
+        "client_secret": "SvxoABRP8FdD4CqA5c9PgN7EILjfXnS6uZ41ST-oQ3p709W2xkSLBKfPgoB4EXWw",
+        "robot_code": "dingxttqsefdjtlq9owy"
+      }
+    }
+  ]
+}

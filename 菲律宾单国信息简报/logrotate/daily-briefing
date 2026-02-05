@@ -1,0 +1,50 @@
+/var/log/daily-briefing/*.log {
+    # 每天轮转
+    daily
+
+    # 保留30天日志
+    rotate 30
+
+    # 压缩旧日志
+    compress
+
+    # 延迟压缩（下次轮转时才压缩）
+    delaycompress
+
+    # 如果日志不存在也不报错
+    missingok
+
+    # 如果日志为空则不轮转
+    notifempty
+
+    # 创建新日志文件的权限
+    create 644 root root
+
+    # 轮转后执行的脚本
+    postrotate
+        # 通知rsyslog重新打开日志文件（如果使用rsyslog）
+        systemctl reload rsyslog > /dev/null 2>&1 || true
+
+        # 发送信号给应用程序（如果需要）
+        # kill -HUP $(cat /var/run/daily-briefing.pid) > /dev/null 2>&1 || true
+    endscript
+
+    # 如果日志文件超过100MB也进行轮转
+    size 100M
+
+    # 使用日期作为后缀
+    dateext
+    dateformat -%Y%m%d-%s
+}
+
+# 应用日志（如果有单独的日志文件）
+/opt/philippines-briefing/菲律宾单国信息简报/logs/*.log {
+    daily
+    rotate 14
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 644 briefing briefing
+    dateext
+}
